@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -50,15 +49,11 @@
   }
 }
 
-@layer base {
-  * {
-    @apply border-border;
+@layer components {
+    .border-border {
+      border: 1px solid hsl(var(--border));
+    }
   }
-  body {
-    @apply bg-background text-foreground;
-    font-feature-settings: "rlig" 1, "calt" 1;
-  }
-}
 
 button {
   background-color: hsl(var(--primary));
@@ -71,5 +66,5 @@ button {
 }
 
 button:hover {
-  background-color: hsl(142.1, 76.2%, 32%); 
+  background-color: hsl(142.1, 76.2%, 32%);
 }
