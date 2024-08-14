@@ -1,6 +1,7 @@
 "use client";
 
-import "../styles/home_banner.css";
+import "../../styles/home_banner.css";
+
 import React, { useState } from "react";
 
 const Domky = () => {
@@ -10,7 +11,7 @@ const Domky = () => {
     setIsOpen(!isOpen);
   };
 
-  
+
   return (
     <main>
       <section className="home_banner relative">
