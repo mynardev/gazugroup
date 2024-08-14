@@ -1,16 +1,16 @@
 import Link from 'next/link';
-import styles from '../styles/Home.module.css';
+import '../styles/main.css';
 
 const Home = () => {
   return (
-    <div className={styles.container}>
-      <h1>Welcome to Gazu Group</h1>
+    <div>
+      <h1>Vitej na strankach projektu GAZU Group s.r.o. Na webovych strankach se prave pracuje. Ocekavana doba spusteni projektu: 23/8 2024.</h1>
       <ul>
-        <li><Link href="/subpages/page1">Subpage 1</Link></li>
-        <li><Link href="/subpages/page2">Subpage 2</Link></li>
-        <li><Link href="/subpages/page3">Subpage 3</Link></li>
-        <li><Link href="/subpages/page4">Subpage 4</Link></li>
-        <li><Link href="/subpages/page5">Subpage 5</Link></li>
+        <li><Link href="/subpages/page1">Domky</Link></li>
+        <li><Link href="/subpages/page2">Haly</Link></li>
+        <li><Link href="/subpages/page3">Fotovoltaika</Link></li>
+        <li><Link href="/subpages/page4">Kamenne koberce</Link></li>
+        <li><Link href="/subpages/page5">Betonove ploty</Link></li>
       </ul>
     </div>
   );
