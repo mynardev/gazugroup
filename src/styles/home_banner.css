@@ -1,0 +1,45 @@
+.home_banner {
+  position: relative;
+  width: 100%;
+  height: 500px; /* xl */
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+
+
+}
+
+@media (max-width: 1250px) {
+  .home_banner {
+    height: 400px; /* medium */
+  }
+}
+
+@media (max-width: 1000px) {
+  .home_banner {
+    height: 300px; /* small */
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.h1-container,
+.p-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem; 
+  margin-bottom: 0.75rem; 
+  display: inline-block; 
+  width: auto; 
+}
+
+.h1-container h1,
+.p-container p {
+  margin: 0; 
+}
