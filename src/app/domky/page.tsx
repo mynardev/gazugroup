@@ -14,7 +14,7 @@ const Domky = () => {
       <section className="home_banner relative">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url(/public/images/ext1.jpg)" }}
+          style={{ backgroundImage: "url(/imagesext1.jpg)" }}
         ></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-0 text-center text-white">
           <div className="h1-container bg-black bg-opacity-50 p-2">
@@ -110,7 +110,7 @@ const Domky = () => {
         </div>
 
         <img
-          src="/public/images/underhome1.jpeg"
+          src="/imagesunderhome1.jpeg"
           className="h-full w-full object-cover sm:h-[calc(100% - 2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100% - 4rem)] md:rounded-ss-[60px]"
         />
       </section>
@@ -239,7 +239,7 @@ const Domky = () => {
       <section className="mt-24 overflow-hidden bg-white sm:grid sm:grid-cols-2 sm:items-center">
         <img
           alt=""
-          src="/public/images/modular3-dw.jpeg"
+          src="/imagesmodular3-dw.jpeg"
           className="h-full w-full object-cover sm:h-[calc(100% - 2rem)] sm:self-start sm:rounded-se-[30px] md:h-[calc(100% - 4rem)] md:rounded-se-[60px]"
         />
 
@@ -409,7 +409,7 @@ const Domky = () => {
           <div className="w-1/2 shadow-2xl">
             <img
               className="hidden object-cover w-full h-screen md:block"
-              src="/public/images/ext1.jpg"
+              src="/imagesext1.jpg"
             />
           </div>
         </div>
