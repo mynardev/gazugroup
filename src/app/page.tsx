@@ -4,6 +4,7 @@ import '../styles/main.css';
 const Home = () => {
   return (
     <div>
+        <h1>B1</h1>
       <ul>
         <li><Link href="/domky">Domky</Link></li>
         <li><Link href="/subpages/page2">Haly</Link></li>
