@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -71,5 +70,5 @@ button {
 }
 
 button:hover {
-  background-color: hsl(142.1, 76.2%, 32%); 
+  background-color: hsl(142.1, 76.2%, 32%);
 }

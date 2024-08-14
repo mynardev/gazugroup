@@ -1,5 +1,3 @@
-// /src/app/domky/layout.tsx
-
 import { Inter as FontSans } from "next/font/google";
 import "@/styles/globals.css";
 import Header from "@/components/domky/Header";
