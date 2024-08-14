@@ -4,7 +4,7 @@ import '../styles/main.css';
 const Home = () => {
   return (
     <div>
-      <h1>Vitej na strankach projektu GAZU Group s.r.o. Na webovych strankach se prave pracuje. Ocekavana doba spusteni projektu: 11123/8 2024.</h1>
+      <h1>GAZU Group - Brzy zaciname</h1>
       <ul>
         <li><Link href="/subpages/page1">Domky</Link></li>
         <li><Link href="/subpages/page2">Haly</Link></li>
