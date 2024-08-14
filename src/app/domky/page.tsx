@@ -10,6 +10,7 @@ const Domky = () => {
     setIsOpen(!isOpen);
   };
 
+  
   return (
     <main>
       <section className="home_banner relative">
