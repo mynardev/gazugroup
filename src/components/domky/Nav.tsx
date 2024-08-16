@@ -7,11 +7,11 @@ import { usePathname } from "next/navigation";
 const links = [
   {
     name: `Úvod`,
-    path: `/`,
+    path: `/domky`,
   },
   {
     name: `O nás`,
-    path: `/about`,
+    path: `/domky/onas`,
   },
   {
     name: `Katalog`,
