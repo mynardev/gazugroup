@@ -1,8 +1,8 @@
 import "../../styles/about_banner.css";
 
 const About = () => {
-    return (
-      <main>
+  return (
+    <main>
       <section className="about_banner relative">
         <div
           className="absolute inset-0 bg-cover bg-center"
@@ -16,7 +16,7 @@ const About = () => {
           </div>
         </div>
       </section>
-  
+
       <section id="scroll">
         <div className="mt-8 mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
@@ -286,7 +286,6 @@ const About = () => {
         </div>
       </section>
 
-
       <section className="mt-20 overflow-hidden bg-white sm:grid sm:grid-cols-2">
         <div className="p-8 md:p-12 lg:px-16 lg:py-24 sm:order-last">
           <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
@@ -411,8 +410,8 @@ const About = () => {
           </div>
         </div>
       </section>
-      </main>
-    );
-  };
-  
-  export default About;
+    </main>
+  );
+};
+
+export default About;
