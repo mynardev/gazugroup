@@ -1,14 +1,14 @@
+// tailwind.config.ts
 import type { Config } from "tailwindcss"
 
 const config: Config = {
-  darkMode: ["class"],
+  darkMode: ["class"], // Enable dark mode with 'class'
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
+    './src/pages/**/*.{ts,tsx}',   // Include pages directory
+    './src/components/**/*.{ts,tsx}', // Include components directory
+    './src/app/**/*.{ts,tsx}',      // Include app directory
+    './src/**/*.{ts,tsx}',          // Include src directory
   ],
-  prefix: "",
   theme: {
     container: {
       center: true,
@@ -78,6 +78,6 @@ const config: Config = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-};
+}
 
 export default config
