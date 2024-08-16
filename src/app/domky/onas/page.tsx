@@ -1,4 +1,4 @@
-import "../../styles/about_banner.css";
+import "../../../styles/about_banner.css";
 
 const About = () => {
   return (
