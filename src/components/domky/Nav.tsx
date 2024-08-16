@@ -11,7 +11,7 @@ const links = [
   },
   {
     name: `O nás`,
-    path: `/domky/onas`,
+    path: `/onas`,
   },
   {
     name: `Katalog`,
