@@ -22,7 +22,7 @@ const About = () => {
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
             <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
               <img
-                src="images/1-2.jpeg"
+                src="/images/1-2.jpeg"
                 className="absolute inset-0 h-full w-full object-cover"
               />
             </div>
@@ -388,7 +388,7 @@ const About = () => {
             <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
               <img
                 alt=""
-                src="images/up-dw.jpeg"
+                src="/images/up-dw.jpeg"
                 className="absolute inset-0 h-full w-full object-cover"
               />
             </div>
